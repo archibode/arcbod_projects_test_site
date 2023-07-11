@@ -1,0 +1,40 @@
+       
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .card{
+            width: 500px;
+            height: 300px;
+            margin: 25%;
+            padding: 50px;
+            border-bottom: 10px solid orange;
+            display: flex;
+        justify-content: center;
+        align-items: center;
+    background-image: url(./asset/image/procurement2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+        
+    p{
+        height: 370px;
+        border-left: 1.0px solid  white;
+    }
+    ul{
+        padding: 25px; 
+    }
+    li{
+        padding-left: 5px;
+        text-align: left;
+        justify-content: center;
+        color: white;
+        font-family: Georgia;
+        font-size: 13pt;
+        line-height: 2.0;
+    }
+    h2{
+        padding-right:25px;
+        color: white;
+    }
+       

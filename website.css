@@ -1,0 +1,203 @@
+
+
+
+html{
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid;
+    width: 100%;
+    height: 100vh;
+   background-color: black;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+   background-image:url(asset/image/unsplash1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    border: 2px solid white ;
+}
+
+.navbar{
+    width: 100%;
+    margin:5px auto ;
+    height: 50px;
+    background-image:url(asset/image/unsplash2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 150px 3fr 1.5fr;
+    border:none ;
+}
+.BrandName{
+    width: 150px;
+    height : 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(13, 13, 13);
+    opacity: .7;
+    border-bottom-width:5px ;
+    border-bottom-color: orange;
+    border: none;
+}
+.BrandName:hover{
+    opacity: 0.6;
+    transform: scale(1.10);
+    transition-duration: 0.4s;
+}
+h4{
+    margin-top: -28px;
+    color: white;
+}
+h2.company-name strong{
+  
+}
+h2{
+    color: orange;
+    display: flex;
+  justify-content: space-around;
+}
+strong{
+    color: black;
+    background-color: aliceblue;
+    opacity: 0.75;
+}
+.menu ul{
+    color: white;
+    display:grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     column-gap: 20px;
+     margin-left: 5px;
+     text-decoration: none;
+}
+.menu ul li:hover{
+    color: lightblue;
+    transform: scale(1.10);
+    transition-duration: 0.4s ease-in-out;
+}
+a{
+font-size: normal;
+font-weight: bold;
+    color:white ;
+    text-decoration: none;
+}c
+a:hover{
+    color: orange;
+    transform: scale(1.10);
+    transition-duration: 0.4s ease-in-out;
+}
+
+.input-buttons{
+margin-top: 20px;
+border-width: 0px;
+}
+
+.Email{
+    margin-top: 10px;
+    height:26px;
+    background-color: white;
+    color: black;
+    font-size: medium;
+    padding-left: 10px;
+    border-bottom-left-radius: 13px;
+    border-top-left-radius: 13px;
+    border: none;
+}
+.SubmitButton{
+    margin-top: 10px;
+    padding-right: 10px;
+    width: 72px;
+    height:28px;
+    background-color: white;
+    color: black;
+    font-size: medium;
+    padding-left: 8px;
+    border-bottom-right-radius: 13px;
+    border-top-right-radius: 13px;
+    border: none;
+    margin-left: -3px;
+    background-color:orange;
+}
+hr{
+    border-color: rgb(245, 247, 248);
+    margin-top: 0px;
+}
+
+.advert{
+    width: 200px;
+    display: flex;
+    align-items: top;
+    justify-items: center;
+    color:orange ;
+    margin-left:200px;
+}
+
+.content{
+    width: 557px;
+    height: 355px;
+    display: grid;
+    box-sizing: border-box;
+grid-template-columns: 1fr 1fr 1fr;
+row-gap: 50px; column-gap: 50px;
+margin:25% 25%;    
+}
+.text{
+    width: 150px;
+    height: 150px;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+.text {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-bottom: 7px solid orange;
+    box-shadow: 1px 1px 5px orange;
+  }
+.text:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    box-shadow: 3px 3px 7px rgb(245, 244, 241);
+}
+
+  button{
+    width: 100px;
+    height: 25px;
+border-radius: 12px;
+border: none;
+  }
+  
+  #arch-services{
+    background-image: url(./asset/image/archy\ drawing\ picture.jpeg);
+  }
+  #struct-services{
+    background-image: url(./asset/image/structural\ engineering\ picture.jpeg);
+  }
+  #construction{
+    background-image: url(./asset/image/construction\ .jpeg);
+  }
+ 
+  #projectman{
+    background-image: url(./asset/image/procurement2.jpeg);
+  }
+  #procurement{
+    background-image: url(./asset/image/procurement1.jpeg);
+  }
+  #facman{
+    background-image: url(./asset/image/facman.jpeg);
+  }
+ button{
+    background-color: rgba(255, 166, 0, 0.435);
+ }
+ 
